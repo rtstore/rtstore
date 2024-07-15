@@ -17,7 +17,7 @@ bytes = { version = "1.0", default-features = false }
 tokio = { version = "1.17.0", features = ["full"] }
 tonic = { workspace=true, features = ["tls-roots"]}
 tonic-web = {workspace=true}
-prost = "0.11"
+prost = "0.13"
 prost-types = "0.12"
 chrono = "0.4.22"
 rand = "0.8.5"
