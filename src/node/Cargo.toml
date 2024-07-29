@@ -39,7 +39,7 @@ tower-http = { version = "0.4", features = ["cors"] }
 ctrlc = { version = "3.0", features = ["termination"] }
 dirs = "5.0.0"
 chrono = "0.4.22"
-arrow = "41.0.0"
+arrow = "52.2.0"
 parquet = {version="41.0.0", features=["arrow", "lz4", "flate2"], default-features = false}
 arweave-rs = {workspace=true}
 url = "2.4.0"
